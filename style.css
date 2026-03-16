@@ -25,6 +25,7 @@
     }
 
     #description {
+      max-width: 120px;
       display: flex;
       flex-direction: column;
 
@@ -71,18 +72,6 @@
       width: 80%;
       height: 3px;
       background: #f5f7fa;
-      transform: translateY(-50%);
-      z-index: 0;
-    }
-
-    #step-list::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 10%;
-      width: 80%;
-      height: 3px;
-      background: #4DAADD;
       transform: translateY(-50%);
       z-index: 0;
     }
@@ -363,3 +352,4 @@
           #f5f7fa 40% 50%
         );
     }
+

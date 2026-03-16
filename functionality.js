@@ -24,3 +24,5 @@ careerSelect.addEventListener("change", function () { // for the salaries
 
 });
 
+
+
